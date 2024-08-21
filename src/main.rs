@@ -3,5 +3,5 @@ mod solutions;
 
 fn main() {
     println!("Welcome to arrow!");
-    solutions::array::p26_remove_duplicates::run();
+    solutions::array::p122_max_profit::run();
 }
