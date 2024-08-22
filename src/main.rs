@@ -3,5 +3,5 @@ mod solutions;
 
 fn main() {
     println!("Welcome to arrow!");
-    solutions::array::p122_max_profit::run();
+    solutions::strings::p344_reverse_string::run();
 }
