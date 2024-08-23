@@ -8,15 +8,15 @@ impl Solution {
 }
 */
 
-// #![allow(unused_variables)]
-// #![allow(dead_code)]
+#![allow(unused_variables)]
+#![allow(dead_code)]
 
 use crate::utils::problem_info::ProblemInfo;
 
 const NUMBER: u16 = 344;
 const NAME: &str = "Reverse String";
 const VARIANT: &str = "Easy";
-const TAKEAWAY: &str = "Approach was almost correct. But the while condition was incorrect, pay more attention there.";
+const TAKEAWAY: &str = "Approach was almost correct. But the while condition was overly complicated and wrong.";
 
 pub struct Solution;
 
