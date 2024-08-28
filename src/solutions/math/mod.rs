@@ -1,0 +1,1 @@
+pub mod p412_fizz_buzz;
