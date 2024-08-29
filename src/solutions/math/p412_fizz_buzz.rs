@@ -54,7 +54,7 @@ impl Solution {
 
         // answer
 
-        // alternate solution:
+        // alternate (and cleaner) solution:
 
         // define the return array
         let mut answer: Vec<String> = Vec::with_capacity(n as usize);
