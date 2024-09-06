@@ -1,7 +1,7 @@
-pub mod utils;
 mod solutions;
+pub mod utils;
 
 fn main() {
-    println!("Welcome to arrow!");
-    solutions::math::p412_fizz_buzz::run();
+    println!("Welcome to narrow!");
+    solutions::math::p204_count_primes::run();
 }

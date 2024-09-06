@@ -47,8 +47,6 @@ impl Solution {
 
         // reversed
 
-        // test commit again
-
         // Convert the integer to a string
         let mut x_str = x.to_string();
 
