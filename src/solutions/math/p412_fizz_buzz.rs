@@ -3,7 +3,7 @@ Starter Code:
 
 impl Solution {
     pub fn fizz_buzz(n: i32) -> Vec<String> {
-        
+
     }
 }
 */
@@ -23,7 +23,7 @@ pub struct Solution;
 impl Solution {
     pub fn fizz_buzz(n: i32) -> Vec<String> {
         // // define return array
-        // let mut answer: Vec<String> = Vec::new(); 
+        // let mut answer: Vec<String> = Vec::new();
 
         // // check for negatives
         // if n <= 0 {
@@ -61,7 +61,7 @@ impl Solution {
 
         for i in 1..=n {
             // push with match statement
-            answer.push(match(i % 3, i % 5) {
+            answer.push(match (i % 3, i % 5) {
                 (0, 0) => "FizzBuzz".to_string(),
                 (0, _) => "Fizz".to_string(),
                 (_, 0) => "Buzz".to_string(),
@@ -74,7 +74,7 @@ impl Solution {
 }
 
 pub fn run() {
-    let info: ProblemInfo = ProblemInfo::new(NUMBER, &NAME, &VARIANT, &TAKEAWAY);
+    let info: ProblemInfo = ProblemInfo::new(NUMBER, NAME, VARIANT, TAKEAWAY);
     info.display();
 
     let n: i32 = 15;
