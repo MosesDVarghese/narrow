@@ -24,6 +24,7 @@ pub struct Solution;
 
 impl Solution {
     fn primes_less_than(n: i32) -> Vec<i32> {
+        // returns all primes less than n
         let mut sieve = vec![1; n as usize];
         let mut res = Vec::new();
 
@@ -43,6 +44,7 @@ impl Solution {
     }
 
     fn n_primes(n: i32) -> Vec<i32> {
+        // returns first n primes
         let mut res: Vec<i32> = Vec::new();
         res.push(2);
         let mut num = 3;
