@@ -11,7 +11,7 @@ fn main() {
     // misc::p201::run();
     // solutions::dynamic_programming::p70_climb_stairs::run();
 
-    solutions::math::p13_roman_to_int::run();
+    solutions::strings::p387_first_uniq_char::run();
 
     // learn::lesson1::run();
 }
