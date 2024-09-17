@@ -50,8 +50,6 @@ pub fn run() {
     info.display();
 
     let x: String = "example".to_string();
-    // let x: i32 = -473;
-    // let x: i32 = -1111222119;
     let y: i32 = Solution::first_uniq_char(x);
     println!("Index: {}", y);
 
