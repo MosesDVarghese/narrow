@@ -6,4 +6,6 @@ It's a solutions gallery and a place for me to learn Rust.
 
 More language variants to be added here
 
-- example
+- python 
+- C++
+- C
